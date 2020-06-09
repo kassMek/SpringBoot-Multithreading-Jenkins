@@ -13,7 +13,7 @@ public class SpringbootMultithreadingApplication {
 
     @PostConstruct
     public void getStarted(){
-        logger.info(" Application started.....");
+        logger.info(" Application started after changing the JDK .....");
     }
 
     public static void main(String[] args) {
